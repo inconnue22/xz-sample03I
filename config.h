@@ -47,7 +47,7 @@
 #define HAVE_CHECK_CRC64 1
 
 /* Define to 1 if sha256 integrity check is enabled. */
-/* #undef HAVE_CHECK_SHA256 */
+#define HAVE_CHECK_SHA256 1
 
 /* Define to 1 if you have the `clock_gettime' function. */
 #define HAVE_CLOCK_GETTIME 1
@@ -107,7 +107,7 @@
 /* #undef HAVE_ENCODER_ARM */
 
 /* Define to 1 if armthumb encoder is enabled. */
-/* #undef HAVE_ENCODER_ARMTHUMB */
+#define HAVE_ENCODER_ARMTHUMB 1
 
 /* Define to 1 if delta encoder is enabled. */
 /* #undef HAVE_ENCODER_DELTA */
@@ -122,7 +122,7 @@
 /* #undef HAVE_ENCODER_LZMA2 */
 
 /* Define to 1 if powerpc encoder is enabled. */
-#define HAVE_ENCODER_POWERPC 1
+/* #undef HAVE_ENCODER_POWERPC */
 
 /* Define to 1 if sparc encoder is enabled. */
 /* #undef HAVE_ENCODER_SPARC */
@@ -173,16 +173,16 @@
 #define HAVE_MF_BT2 1
 
 /* Define to 1 to enable bt3 match finder. */
-/* #undef HAVE_MF_BT3 */
+#define HAVE_MF_BT3 1
 
 /* Define to 1 to enable bt4 match finder. */
 #define HAVE_MF_BT4 1
 
 /* Define to 1 to enable hc3 match finder. */
-/* #undef HAVE_MF_HC3 */
+#define HAVE_MF_HC3 1
 
 /* Define to 1 to enable hc4 match finder. */
-/* #undef HAVE_MF_HC4 */
+#define HAVE_MF_HC4 1
 
 /* Define to 1 if getopt.h declares extern int optreset. */
 /* #undef HAVE_OPTRESET */
@@ -215,7 +215,7 @@
 /* #undef HAVE_SHA2_H */
 
 /* Define to 1 if optimizing for size. */
-#define HAVE_SMALL 1
+/* #undef HAVE_SMALL */
 
 /* Define to 1 if stdbool.h conforms to C99. */
 #define HAVE_STDBOOL_H 1
