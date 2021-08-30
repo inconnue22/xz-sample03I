@@ -47,7 +47,7 @@
 /* #undef HAVE_CHECK_CRC64 */
 
 /* Define to 1 if sha256 integrity check is enabled. */
-#define HAVE_CHECK_SHA256 1
+/* #undef HAVE_CHECK_SHA256 */
 
 /* Define to 1 if you have the `clock_gettime' function. */
 #define HAVE_CLOCK_GETTIME 1
@@ -74,7 +74,7 @@
 /* #undef HAVE_DECODER_ARM */
 
 /* Define to 1 if armthumb decoder is enabled. */
-/* #undef HAVE_DECODER_ARMTHUMB */
+#define HAVE_DECODER_ARMTHUMB 1
 
 /* Define to 1 if delta decoder is enabled. */
 /* #undef HAVE_DECODER_DELTA */
@@ -92,7 +92,7 @@
 /* #undef HAVE_DECODER_POWERPC */
 
 /* Define to 1 if sparc decoder is enabled. */
-#define HAVE_DECODER_SPARC 1
+/* #undef HAVE_DECODER_SPARC */
 
 /* Define to 1 if x86 decoder is enabled. */
 /* #undef HAVE_DECODER_X86 */
@@ -215,7 +215,7 @@
 /* #undef HAVE_SHA2_H */
 
 /* Define to 1 if optimizing for size. */
-/* #undef HAVE_SMALL */
+#define HAVE_SMALL 1
 
 /* Define to 1 if stdbool.h conforms to C99. */
 #define HAVE_STDBOOL_H 1
@@ -319,7 +319,7 @@
 /* #undef MYTHREAD_WIN95 */
 
 /* Define to 1 to disable debugging code. */
-#define NDEBUG 1
+/* #undef NDEBUG */
 
 /* Name of package */
 #define PACKAGE "xz"
