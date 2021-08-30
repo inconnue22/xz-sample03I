@@ -44,7 +44,7 @@
 #define HAVE_CHECK_CRC32 1
 
 /* Define to 1 if crc64 integrity check is enabled. */
-/* #undef HAVE_CHECK_CRC64 */
+#define HAVE_CHECK_CRC64 1
 
 /* Define to 1 if sha256 integrity check is enabled. */
 #define HAVE_CHECK_SHA256 1
@@ -89,10 +89,10 @@
 /* #undef HAVE_DECODER_LZMA2 */
 
 /* Define to 1 if powerpc decoder is enabled. */
-#define HAVE_DECODER_POWERPC 1
+/* #undef HAVE_DECODER_POWERPC */
 
 /* Define to 1 if sparc decoder is enabled. */
-/* #undef HAVE_DECODER_SPARC */
+#define HAVE_DECODER_SPARC 1
 
 /* Define to 1 if x86 decoder is enabled. */
 /* #undef HAVE_DECODER_X86 */
@@ -107,10 +107,10 @@
 /* #undef HAVE_ENCODER_ARM */
 
 /* Define to 1 if armthumb encoder is enabled. */
-/* #undef HAVE_ENCODER_ARMTHUMB */
+#define HAVE_ENCODER_ARMTHUMB 1
 
 /* Define to 1 if delta encoder is enabled. */
-#define HAVE_ENCODER_DELTA 1
+/* #undef HAVE_ENCODER_DELTA */
 
 /* Define to 1 if ia64 encoder is enabled. */
 /* #undef HAVE_ENCODER_IA64 */
@@ -170,13 +170,13 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 to enable bt2 match finder. */
-/* #undef HAVE_MF_BT2 */
+#define HAVE_MF_BT2 1
 
 /* Define to 1 to enable bt3 match finder. */
-/* #undef HAVE_MF_BT3 */
+#define HAVE_MF_BT3 1
 
 /* Define to 1 to enable bt4 match finder. */
-/* #undef HAVE_MF_BT4 */
+#define HAVE_MF_BT4 1
 
 /* Define to 1 to enable hc3 match finder. */
 #define HAVE_MF_HC3 1
@@ -407,7 +407,7 @@
 /* Define to 1 to use unsafe type punning, e.g. char *x = ...; *(int *)x =
    123; which violates strict aliasing rules and thus is undefined behavior
    and might result in broken code. */
-/* #undef TUKLIB_USE_UNSAFE_TYPE_PUNNING */
+#define TUKLIB_USE_UNSAFE_TYPE_PUNNING 1
 
 /* Enable extensions on AIX 3, Interix.  */
 #ifndef _ALL_SOURCE
