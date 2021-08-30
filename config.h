@@ -47,7 +47,7 @@
 /* #undef HAVE_CHECK_CRC64 */
 
 /* Define to 1 if sha256 integrity check is enabled. */
-/* #undef HAVE_CHECK_SHA256 */
+#define HAVE_CHECK_SHA256 1
 
 /* Define to 1 if you have the `clock_gettime' function. */
 #define HAVE_CLOCK_GETTIME 1
@@ -77,7 +77,7 @@
 /* #undef HAVE_DECODER_ARMTHUMB */
 
 /* Define to 1 if delta decoder is enabled. */
-/* #undef HAVE_DECODER_DELTA */
+#define HAVE_DECODER_DELTA 1
 
 /* Define to 1 if ia64 decoder is enabled. */
 /* #undef HAVE_DECODER_IA64 */
@@ -92,7 +92,7 @@
 /* #undef HAVE_DECODER_POWERPC */
 
 /* Define to 1 if sparc decoder is enabled. */
-#define HAVE_DECODER_SPARC 1
+/* #undef HAVE_DECODER_SPARC */
 
 /* Define to 1 if x86 decoder is enabled. */
 /* #undef HAVE_DECODER_X86 */
@@ -110,7 +110,7 @@
 /* #undef HAVE_ENCODER_ARMTHUMB */
 
 /* Define to 1 if delta encoder is enabled. */
-/* #undef HAVE_ENCODER_DELTA */
+#define HAVE_ENCODER_DELTA 1
 
 /* Define to 1 if ia64 encoder is enabled. */
 /* #undef HAVE_ENCODER_IA64 */
@@ -125,7 +125,7 @@
 /* #undef HAVE_ENCODER_POWERPC */
 
 /* Define to 1 if sparc encoder is enabled. */
-#define HAVE_ENCODER_SPARC 1
+/* #undef HAVE_ENCODER_SPARC */
 
 /* Define to 1 if x86 encoder is enabled. */
 /* #undef HAVE_ENCODER_X86 */
@@ -173,16 +173,16 @@
 /* #undef HAVE_MF_BT2 */
 
 /* Define to 1 to enable bt3 match finder. */
-#define HAVE_MF_BT3 1
+/* #undef HAVE_MF_BT3 */
 
 /* Define to 1 to enable bt4 match finder. */
-/* #undef HAVE_MF_BT4 */
+#define HAVE_MF_BT4 1
 
 /* Define to 1 to enable hc3 match finder. */
 /* #undef HAVE_MF_HC3 */
 
 /* Define to 1 to enable hc4 match finder. */
-#define HAVE_MF_HC4 1
+/* #undef HAVE_MF_HC4 */
 
 /* Define to 1 if getopt.h declares extern int optreset. */
 /* #undef HAVE_OPTRESET */
@@ -319,7 +319,7 @@
 /* #undef MYTHREAD_WIN95 */
 
 /* Define to 1 to disable debugging code. */
-/* #undef NDEBUG */
+#define NDEBUG 1
 
 /* Name of package */
 #define PACKAGE "xz"
