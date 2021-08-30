@@ -74,7 +74,7 @@
 /* #undef HAVE_DECODER_ARM */
 
 /* Define to 1 if armthumb decoder is enabled. */
-/* #undef HAVE_DECODER_ARMTHUMB */
+#define HAVE_DECODER_ARMTHUMB 1
 
 /* Define to 1 if delta decoder is enabled. */
 /* #undef HAVE_DECODER_DELTA */
@@ -92,7 +92,7 @@
 /* #undef HAVE_DECODER_POWERPC */
 
 /* Define to 1 if sparc decoder is enabled. */
-#define HAVE_DECODER_SPARC 1
+/* #undef HAVE_DECODER_SPARC */
 
 /* Define to 1 if x86 decoder is enabled. */
 /* #undef HAVE_DECODER_X86 */
@@ -107,7 +107,7 @@
 /* #undef HAVE_ENCODER_ARM */
 
 /* Define to 1 if armthumb encoder is enabled. */
-#define HAVE_ENCODER_ARMTHUMB 1
+/* #undef HAVE_ENCODER_ARMTHUMB */
 
 /* Define to 1 if delta encoder is enabled. */
 /* #undef HAVE_ENCODER_DELTA */
@@ -122,7 +122,7 @@
 /* #undef HAVE_ENCODER_LZMA2 */
 
 /* Define to 1 if powerpc encoder is enabled. */
-/* #undef HAVE_ENCODER_POWERPC */
+#define HAVE_ENCODER_POWERPC 1
 
 /* Define to 1 if sparc encoder is enabled. */
 /* #undef HAVE_ENCODER_SPARC */
@@ -173,7 +173,7 @@
 #define HAVE_MF_BT2 1
 
 /* Define to 1 to enable bt3 match finder. */
-#define HAVE_MF_BT3 1
+/* #undef HAVE_MF_BT3 */
 
 /* Define to 1 to enable bt4 match finder. */
 #define HAVE_MF_BT4 1
@@ -182,7 +182,7 @@
 /* #undef HAVE_MF_HC3 */
 
 /* Define to 1 to enable hc4 match finder. */
-#define HAVE_MF_HC4 1
+/* #undef HAVE_MF_HC4 */
 
 /* Define to 1 if getopt.h declares extern int optreset. */
 /* #undef HAVE_OPTRESET */
@@ -215,7 +215,7 @@
 /* #undef HAVE_SHA2_H */
 
 /* Define to 1 if optimizing for size. */
-/* #undef HAVE_SMALL */
+#define HAVE_SMALL 1
 
 /* Define to 1 if stdbool.h conforms to C99. */
 #define HAVE_STDBOOL_H 1
