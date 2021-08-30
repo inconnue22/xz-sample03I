@@ -9,7 +9,7 @@
 
 /* Define to 1 if translation of program messages to the user's native
    language is requested. */
-#define ENABLE_NLS 1
+/* #undef ENABLE_NLS */
 
 /* Define to 1 if bswap_16 is available. */
 /* #undef HAVE_BSWAP_16 */
@@ -47,7 +47,7 @@
 /* #undef HAVE_CHECK_CRC64 */
 
 /* Define to 1 if sha256 integrity check is enabled. */
-#define HAVE_CHECK_SHA256 1
+/* #undef HAVE_CHECK_SHA256 */
 
 /* Define to 1 if you have the `clock_gettime' function. */
 #define HAVE_CLOCK_GETTIME 1
@@ -57,7 +57,7 @@
 
 /* Define if the GNU dcgettext() function is already present or preinstalled.
    */
-#define HAVE_DCGETTEXT 1
+/* #undef HAVE_DCGETTEXT */
 
 /* Define to 1 if you have the declaration of `CLOCK_MONOTONIC', and to 0 if
    you don't. */
@@ -74,13 +74,13 @@
 /* #undef HAVE_DECODER_ARM */
 
 /* Define to 1 if armthumb decoder is enabled. */
-/* #undef HAVE_DECODER_ARMTHUMB */
+#define HAVE_DECODER_ARMTHUMB 1
 
 /* Define to 1 if delta decoder is enabled. */
 /* #undef HAVE_DECODER_DELTA */
 
 /* Define to 1 if ia64 decoder is enabled. */
-#define HAVE_DECODER_IA64 1
+/* #undef HAVE_DECODER_IA64 */
 
 /* Define to 1 if lzma1 decoder is enabled. */
 #define HAVE_DECODER_LZMA1 1
@@ -104,7 +104,7 @@
 #define HAVE_ENCODERS 1
 
 /* Define to 1 if arm encoder is enabled. */
-#define HAVE_ENCODER_ARM 1
+/* #undef HAVE_ENCODER_ARM */
 
 /* Define to 1 if armthumb encoder is enabled. */
 /* #undef HAVE_ENCODER_ARMTHUMB */
@@ -122,7 +122,7 @@
 /* #undef HAVE_ENCODER_LZMA2 */
 
 /* Define to 1 if powerpc encoder is enabled. */
-/* #undef HAVE_ENCODER_POWERPC */
+#define HAVE_ENCODER_POWERPC 1
 
 /* Define to 1 if sparc encoder is enabled. */
 /* #undef HAVE_ENCODER_SPARC */
@@ -149,7 +149,7 @@
 #define HAVE_GETOPT_LONG 1
 
 /* Define if the GNU gettext() function is already present or preinstalled. */
-#define HAVE_GETTEXT 1
+/* #undef HAVE_GETTEXT */
 
 /* Define if you have the iconv() function and it works. */
 /* #undef HAVE_ICONV */
@@ -170,19 +170,19 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 to enable bt2 match finder. */
-/* #undef HAVE_MF_BT2 */
+#define HAVE_MF_BT2 1
 
 /* Define to 1 to enable bt3 match finder. */
 /* #undef HAVE_MF_BT3 */
 
 /* Define to 1 to enable bt4 match finder. */
-/* #undef HAVE_MF_BT4 */
+#define HAVE_MF_BT4 1
 
 /* Define to 1 to enable hc3 match finder. */
-#define HAVE_MF_HC3 1
+/* #undef HAVE_MF_HC3 */
 
 /* Define to 1 to enable hc4 match finder. */
-#define HAVE_MF_HC4 1
+/* #undef HAVE_MF_HC4 */
 
 /* Define to 1 if getopt.h declares extern int optreset. */
 /* #undef HAVE_OPTRESET */
@@ -215,7 +215,7 @@
 /* #undef HAVE_SHA2_H */
 
 /* Define to 1 if optimizing for size. */
-/* #undef HAVE_SMALL */
+#define HAVE_SMALL 1
 
 /* Define to 1 if stdbool.h conforms to C99. */
 #define HAVE_STDBOOL_H 1
