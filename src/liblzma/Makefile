@@ -161,7 +161,7 @@ am__append_10 = check/crc32_fast.c
 
 ##am__append_13 = check/crc64_x86.S
 #am__append_14 = check/crc64_fast.c
-am__append_15 = check/sha256.c
+#am__append_15 = check/sha256.c
 am__append_16 = \
 	lz/lz_encoder.c \
 	lz/lz_encoder.h \
@@ -232,10 +232,10 @@ am__append_33 = \
 	simple/simple_decoder.h
 
 #am__append_34 = simple/x86.c
-am__append_35 = simple/powerpc.c
+#am__append_35 = simple/powerpc.c
 #am__append_36 = simple/ia64.c
 #am__append_37 = simple/arm.c
-#am__append_38 = simple/armthumb.c
+am__append_38 = simple/armthumb.c
 am__append_39 = simple/sparc.c
 #am__append_40 = liblzma.def liblzma.def.in empty.c
 #am__append_41 = liblzma_w32res.rc
@@ -399,7 +399,7 @@ am__objects_9 = liblzma_la-crc32_fast.lo
 #am__objects_11 = liblzma_la-crc64_table.lo
 ##am__objects_12 = liblzma_la-crc64_x86.lo
 #am__objects_13 = liblzma_la-crc64_fast.lo
-am__objects_14 = liblzma_la-sha256.lo
+#am__objects_14 = liblzma_la-sha256.lo
 am__objects_15 = liblzma_la-lz_encoder.lo \
 	liblzma_la-lz_encoder_mf.lo
 am__objects_16 = liblzma_la-lz_decoder.lo
@@ -421,10 +421,10 @@ am__objects_28 = liblzma_la-simple_coder.lo
 am__objects_29 = liblzma_la-simple_encoder.lo
 am__objects_30 = liblzma_la-simple_decoder.lo
 #am__objects_31 = liblzma_la-x86.lo
-am__objects_32 = liblzma_la-powerpc.lo
+#am__objects_32 = liblzma_la-powerpc.lo
 #am__objects_33 = liblzma_la-ia64.lo
 #am__objects_34 = liblzma_la-arm.lo
-#am__objects_35 = liblzma_la-armthumb.lo
+am__objects_35 = liblzma_la-armthumb.lo
 am__objects_36 = liblzma_la-sparc.lo
 #am__objects_37 = liblzma_w32res.lo
 am_liblzma_la_OBJECTS = liblzma_la-tuklib_physmem.lo $(am__objects_1) \
