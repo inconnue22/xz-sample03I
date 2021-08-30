@@ -47,7 +47,7 @@
 /* #undef HAVE_CHECK_CRC64 */
 
 /* Define to 1 if sha256 integrity check is enabled. */
-/* #undef HAVE_CHECK_SHA256 */
+#define HAVE_CHECK_SHA256 1
 
 /* Define to 1 if you have the `clock_gettime' function. */
 /* #undef HAVE_CLOCK_GETTIME */
@@ -92,10 +92,10 @@
 /* #undef HAVE_DECODER_POWERPC */
 
 /* Define to 1 if sparc decoder is enabled. */
-#define HAVE_DECODER_SPARC 1
+/* #undef HAVE_DECODER_SPARC */
 
 /* Define to 1 if x86 decoder is enabled. */
-/* #undef HAVE_DECODER_X86 */
+#define HAVE_DECODER_X86 1
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #define HAVE_DLFCN_H 1
@@ -110,7 +110,7 @@
 /* #undef HAVE_ENCODER_ARMTHUMB */
 
 /* Define to 1 if delta encoder is enabled. */
-#define HAVE_ENCODER_DELTA 1
+/* #undef HAVE_ENCODER_DELTA */
 
 /* Define to 1 if ia64 encoder is enabled. */
 /* #undef HAVE_ENCODER_IA64 */
@@ -119,7 +119,7 @@
 #define HAVE_ENCODER_LZMA1 1
 
 /* Define to 1 if lzma2 encoder is enabled. */
-/* #undef HAVE_ENCODER_LZMA2 */
+#define HAVE_ENCODER_LZMA2 1
 
 /* Define to 1 if powerpc encoder is enabled. */
 /* #undef HAVE_ENCODER_POWERPC */
@@ -170,7 +170,7 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 to enable bt2 match finder. */
-/* #undef HAVE_MF_BT2 */
+#define HAVE_MF_BT2 1
 
 /* Define to 1 to enable bt3 match finder. */
 #define HAVE_MF_BT3 1
@@ -319,7 +319,7 @@
 /* #undef MYTHREAD_WIN95 */
 
 /* Define to 1 to disable debugging code. */
-/* #undef NDEBUG */
+#define NDEBUG 1
 
 /* Name of package */
 #define PACKAGE "xz"
